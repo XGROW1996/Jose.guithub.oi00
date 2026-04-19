@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Official Website</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #111827;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .box {
+      background: #1f2937;
+      padding: 30px;
+      border-radius: 15px;
+      text-align: center;
+      max-width: 400px;
+    }
+
+    a {
+      display: block;
+      margin-top: 15px;
+      padding: 12px;
+      border-radius: 8px;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+
+    .btn-yes {
+      background: #22c55e;
+    }
+
+    .btn-no {
+      background: #ef4444;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="box">
+    <h1>Official Website</h1>
+    <p>Click below to continue</p>
+
+    <a class="btn-yes" href="https://primeperformpro.com/welcome/#">
+      👉 Click here to continue
+    </a>
+
+    <a class="btn-no" href="#">
+      No thanks
+    </a>
+  </div>
+
+</body>
+</html>
