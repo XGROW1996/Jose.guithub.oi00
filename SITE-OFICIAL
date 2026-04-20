@@ -1,71 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Official Store</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Oral Health Breakthrough</title>
 
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: #0f172a;
-      color: white;
-      text-align: center;
-    }
+<style>
+body {
+  font-family: Arial;
+  background: #f5f5f5;
+  margin: 0;
+}
 
-    .container {
-      padding: 40px 20px;
-    }
+.container {
+  max-width: 800px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+}
 
-    h1 {
-      font-size: 32px;
-    }
+h1 {
+  color: #2e7d32;
+}
 
-    p {
-      color: #cbd5f5;
-      max-width: 500px;
-      margin: 10px auto 30px;
-    }
+.button {
+  display: block;
+  text-align: center;
+  background: #28a745;
+  color: white;
+  padding: 15px;
+  margin: 20px 0;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
 
-    .btn {
-      background: #22c55e;
-      color: black;
-      padding: 15px 25px;
-      border-radius: 8px;
-      text-decoration: none;
-      font-weight: bold;
-      display: inline-block;
-    }
-
-    .box {
-      background: #1e293b;
-      padding: 20px;
-      margin-top: 30px;
-      border-radius: 10px;
-    }
-  </style>
+.footer {
+  font-size: 12px;
+  color: gray;
+  text-align: center;
+  margin-top: 30px;
+}
+</style>
 </head>
 
 <body>
 
-  <div class="container">
-    <h1>🚀 Official Product</h1>
-    
-    <p>
-      The best digital product to help you make money online.
-      Fast, simple and proven.
-    </p>
+<div class="container">
 
-    <a href="#" class="btn">Buy Now</a>
+<h1>Scientists Discover New Oral Health Formula</h1>
 
-    <div class="box">
-      <h2>🔥 What you get:</h2>
-      <p>✔ Step-by-step system<br>
-         ✔ Beginner friendly<br>
-         ✔ Instant access</p>
-    </div>
-  </div>
+<p>
+Many people struggle with bad breath, gum issues, and weak teeth.
+But recent research suggests the problem may not be brushing...
+</p>
+
+<p>
+Instead, it could be linked to an imbalance of bacteria in your mouth.
+</p>
+
+<h2>What’s The Solution?</h2>
+
+<p>
+A new formula using natural probiotics has been gaining attention
+for helping support oral health from the inside out.
+</p>
+
+<a href="SEU_LINK_AFILIADO_AQUI" class="button">
+See The Official Presentation
+</a>
+
+<p>
+Thousands of people are already trying this method.
+Click above to learn more.
+</p>
+
+<div class="footer">
+This site is not affiliated with Google. Results may vary.
+</div>
+
+</div>
 
 </body>
 </html>
