@@ -3,65 +3,151 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Blood Sugar Secret</title>
+<title>Blood Sugar Warning</title>
 
 <style>
 body {
+  margin: 0;
   font-family: Arial, sans-serif;
-  background: #fff;
-  color: #222;
-  max-width: 600px;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+}
+
+.container {
+  max-width: 700px;
   margin: auto;
   padding: 20px;
 }
 
 h1 {
-  font-size: 28px;
-  font-weight: bold;
+  font-size: 26px;
+  margin-bottom: 10px;
 }
 
 h2 {
   font-size: 18px;
-  color: #555;
+  color: #ccc;
 }
 
-p {
-  font-size: 16px;
-  line-height: 1.6;
+.video {
+  width: 100%;
+  height: 380px;
+  margin: 20px 0;
 }
 
 .blur-img {
   width: 100%;
-  filter: blur(8px);
+  filter: blur(10px);
   margin: 15px 0;
 }
 
 .button {
   display: block;
-  background: #28a745;
-  color: white;
-  text-align: center;
-  padding: 15px;
+  background-color: #ff0000;
+  color: #fff;
   text-decoration: none;
-  font-size: 18px;
-  border-radius: 5px;
-  margin: 20px 0;
+  padding: 18px;
+  font-size: 20px;
+  border-radius: 6px;
+  margin-top: 20px;
+  font-weight: bold;
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0% {opacity: 1;}
+  50% {opacity: 0.7;}
+  100% {opacity: 1;}
+}
+
+.warning {
+  font-size: 13px;
+  color: #aaa;
+  margin-top: 20px;
 }
 
 .cookie-box {
   position: fixed;
   bottom: 0;
-  left: 0;
   width: 100%;
-  background: #000;
+  background: #111;
   color: #fff;
   padding: 10px;
-  text-align: center;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .cookie-box button {
   background: #28a745;
   border: none;
   color: #fff;
-  padding: 8
+  padding: 6px 10px;
+  margin-left: 10px;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>WARNING: Your Blood Sugar Might Be Higher Than You Think...</h1>
+
+<h2>This strange daily habit may be silently draining your energy</h2>
+
+<!-- VÍDEO -->
+<iframe class="video"
+src="https://www.youtube.com/embed/VIDEO_ID"
+frameborder="0" allowfullscreen></iframe>
+
+<!-- IMAGEM DESFOCADA -->
+<img src="https://i.imgur.com/8Km9tLL.png" class="blur-img">
+
+<p>
+Most people think blood sugar problems come only from sugar…
+</p>
+
+<p>
+But research shows it's more about how your body processes glucose and insulin.
+</p>
+
+<p>
+Unstable blood sugar levels can lead to:
+</p>
+
+<p>
+• Constant fatigue<br>
+• Cravings for sugar<br>
+• Weight gain<br>
+• Brain fog
+</p>
+
+<p>
+This is why many people are now turning to natural formulas designed to support glucose balance and metabolism. 0
+</p>
+
+<a href="https://kiwify.app/qeDlA3h?afid=bjjkX3zV" class="button">
+▶ Watch The Full Video Now
+</a>
+
+<p class="warning">
+Due to high demand, this video may not be available later.
+</p>
+
+</div>
+
+<!-- COOKIES -->
+<div class="cookie-box" id="cookieBox">
+This site uses cookies to improve your experience.
+<button onclick="acceptCookies()">Accept</button>
+</div>
+
+<script>
+function acceptCookies() {
+  document.getElementById("cookieBox").style.display = "none";
+}
+</script>
+
+</body>
+</html>
